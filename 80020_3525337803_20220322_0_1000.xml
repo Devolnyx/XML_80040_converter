@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <message class="80020" version="2" number="0">
+   <datetime>
+     <timestamp>20220323122052</timestamp>
+     <daylightsavingtime>0</daylightsavingtime>
+     <day>20220322</day>
+   </datetime>
+   <sender>
+     <inn>3525337803</inn>
+     <name>sed</name>
+   </sender>
+   <area timezone="1">
+     <inn>12345678</inn>
+     <name>max</name>
+     <measuringpoint code="device-101-30m" name="Ввод-1 (контр.)">
+       <measuringchannel code="01" desc="Энергия A+">
+         <period start="0000" end="0030">
+           <value>0.7245</value>
+         </period>
+         <period start="0030" end="0100">
+           <value>0.8075</value>
+         </period>
+         <period start="0100" end="0130">
+           <value>0.8495</value>
+         </period>
+         <period start="0130" end="0200">
+           <value>0.73</value>
+         </period>
+         <period start="0200" end="0230">
+           <value>0.761</value>
+         </period>
+         <period start="0230" end="0300">
+           <value>0.7645</value>
+         </period>
+         <period start="0300" end="0330">
+           <value>0.807</value>
+         </period>
+         <period start="0330" end="0400">
+           <value>0.7565</value>
+         </period>
+         <period start="0400" end="0430">
+           <value>0.7505</value>
+         </period>
+         <period start="0430" end="0500">
+           <value>0.808</value>
+         </period>
+         <period start="0500" end="0530">
+           <value>0.848</value>
+         </period>
+         <period start="0530" end="0600">
+           <value>0.844</value>
+         </period>
+         <period start="0600" end="0630">
+           <value>1.294</value>
+         </period>
+         <period start="0630" end="0700">
+           <value>1.3905</value>
+         </period>
+         <period start="0700" end="0730">
+           <value>1.4995</value>
+         </period>
+         <period start="0730" end="0800">
+           <value>1.704</value>
+         </period>
+         <period start="0800" end="0830">
+           <value>5.523</value>
+         </period>
+         <period start="0830" end="0900">
+           <value>8.2885</value>
+         </period>
+         <period start="0900" end="0930">
+           <value>6.2945</value>
+         </period>
+         <period start="0930" end="1000">
+           <value>5.7325</value>
+         </period>
+         <period start="1000" end="1030">
+           <value>3.997</value>
+         </period>
+         <period start="1030" end="1100">
+           <value>2.2425</value>
+         </period>
+         <period start="1100" end="1130">
+           <value>1.899</value>
+         </period>
+         <period start="1130" end="1200">
+           <value>2.0735</value>
+         </period>
+         <period start="1200" end="1230">
+           <value>6.4695</value>
+         </period>
+         <period start="1230" end="1300">
+           <value>6.1405</value>
+         </period>
+         <period start="1300" end="1330">
+           <value>6.152</value>
+         </period>
+         <period start="1330" end="1400">
+           <value>4.3895</value>
+         </period>
+         <period start="1400" end="1430">
+           <value>3.4235</value>
+         </period>
+         <period start="1430" end="1500">
+           <value>1.966</value>
+         </period>
+         <period start="1500" end="1530">
+           <value>1.9</value>
+         </period>
+         <period start="1530" end="1600">
+           <value>1.906</value>
+         </period>
+         <period start="1600" end="1630">
+           <value>2.148</value>
+         </period>
+         <period start="1630" end="1700">
+           <value>1.916</value>
+         </period>
+         <period start="1700" end="1730">
+           <value>2.2345</value>
+         </period>
+         <period start="1730" end="1800">
+           <value>2.1795</value>
+         </period>
+         <period start="1800" end="1830">
+           <value>1.722</value>
+         </period>
+         <period start="1830" end="1900">
+           <value>1.48</value>
+         </period>
+         <period start="1900" end="1930">
+           <value>1.429</value>
+         </period>
+         <period start="1930" end="2000">
+           <value>1.3625</value>
+         </period>
+         <period start="2000" end="2030">
+           <value>1.4485</value>
+         </period>
+         <period start="2030" end="2100">
+           <value>1.3725</value>
+         </period>
+         <period start="2100" end="2130">
+           <value>1.4125</value>
+         </period>
+         <period start="2130" end="2200">
+           <value>1.341</value>
+         </period>
+         <period start="2200" end="2230">
+           <value>1.3175</value>
+         </period>
+         <period start="2230" end="2300">
+           <value>1.2915</value>
+         </period>
+         <period start="2300" end="2330">
+           <value>1.285</value>
+         </period>
+         <period start="2330" end="0000">
+           <value>1.311</value>
+         </period>
+       </measuringchannel>
+     </measuringpoint>
+     <measuringpoint code="device-102-30m" name="Ввод-2 (контр.)">
+       <measuringchannel code="01" desc="Энергия A+">
+         <period start="0000" end="0030">
+           <value>4.7135</value>
+         </period>
+         <period start="0030" end="0100">
+           <value>4.566</value>
+         </period>
+         <period start="0100" end="0130">
+           <value>4.5525</value>
+         </period>
+         <period start="0130" end="0200">
+           <value>4.6035</value>
+         </period>
+         <period start="0200" end="0230">
+           <value>4.4655</value>
+         </period>
+         <period start="0230" end="0300">
+           <value>4.66</value>
+         </period>
+         <period start="0300" end="0330">
+           <value>4.454</value>
+         </period>
+         <period start="0330" end="0400">
+           <value>4.6315</value>
+         </period>
+         <period start="0400" end="0430">
+           <value>4.484</value>
+         </period>
+         <period start="0430" end="0500">
+           <value>4.6225</value>
+         </period>
+         <period start="0500" end="0530">
+           <value>4.4585</value>
+         </period>
+         <period start="0530" end="0600">
+           <value>5.0465</value>
+         </period>
+         <period start="0600" end="0630">
+           <value>5.3965</value>
+         </period>
+         <period start="0630" end="0700">
+           <value>5.1375</value>
+         </period>
+         <period start="0700" end="0730">
+           <value>5.157</value>
+         </period>
+         <period start="0730" end="0800">
+           <value>6.7985</value>
+         </period>
+         <period start="0800" end="0830">
+           <value>9.324</value>
+         </period>
+         <period start="0830" end="0900">
+           <value>9.3605</value>
+         </period>
+         <period start="0900" end="0930">
+           <value>9.511</value>
+         </period>
+         <period start="0930" end="1000">
+           <value>7.3985</value>
+         </period>
+         <period start="1000" end="1030">
+           <value>6.427</value>
+         </period>
+         <period start="1030" end="1100">
+           <value>6.608</value>
+         </period>
+         <period start="1100" end="1130">
+           <value>6.518</value>
+         </period>
+         <period start="1130" end="1200">
+           <value>6.4155</value>
+         </period>
+         <period start="1200" end="1230">
+           <value>6.3575</value>
+         </period>
+         <period start="1230" end="1300">
+           <value>6.2375</value>
+         </period>
+         <period start="1300" end="1330">
+           <value>6.166</value>
+         </period>
+         <period start="1330" end="1400">
+           <value>6.4795</value>
+         </period>
+         <period start="1400" end="1430">
+           <value>6.3855</value>
+         </period>
+         <period start="1430" end="1500">
+           <value>6.1425</value>
+         </period>
+         <period start="1500" end="1530">
+           <value>7.846</value>
+         </period>
+         <period start="1530" end="1600">
+           <value>6.6365</value>
+         </period>
+         <period start="1600" end="1630">
+           <value>6.2375</value>
+         </period>
+         <period start="1630" end="1700">
+           <value>6.268</value>
+         </period>
+         <period start="1700" end="1730">
+           <value>6.079</value>
+         </period>
+         <period start="1730" end="1800">
+           <value>5.7425</value>
+         </period>
+         <period start="1800" end="1830">
+           <value>5.6615</value>
+         </period>
+         <period start="1830" end="1900">
+           <value>5.5805</value>
+         </period>
+         <period start="1900" end="1930">
+           <value>5.611</value>
+         </period>
+         <period start="1930" end="2000">
+           <value>5.564</value>
+         </period>
+         <period start="2000" end="2030">
+           <value>5.5425</value>
+         </period>
+         <period start="2030" end="2100">
+           <value>5.531</value>
+         </period>
+         <period start="2100" end="2130">
+           <value>5.5595</value>
+         </period>
+         <period start="2130" end="2200">
+           <value>5.775</value>
+         </period>
+         <period start="2200" end="2230">
+           <value>5.7425</value>
+         </period>
+         <period start="2230" end="2300">
+           <value>5.747</value>
+         </period>
+         <period start="2300" end="2330">
+           <value>5.799</value>
+         </period>
+         <period start="2330" end="0000">
+           <value>5.6855</value>
+         </period>
+       </measuringchannel>
+     </measuringpoint>
+     <measuringpoint code="device-201-30m" name="Ввод-1 (ком.)">
+       <measuringchannel code="01" desc="Энергия A+">
+         <period start="0000" end="0030">
+           <value>0.6975</value>
+         </period>
+         <period start="0030" end="0100">
+           <value>0.8705</value>
+         </period>
+         <period start="0100" end="0130">
+           <value>0.8115</value>
+         </period>
+         <period start="0130" end="0200">
+           <value>0.7115</value>
+         </period>
+         <period start="0200" end="0230">
+           <value>0.7435</value>
+         </period>
+         <period start="0230" end="0300">
+           <value>0.8255</value>
+         </period>
+         <period start="0300" end="0330">
+           <value>0.7825</value>
+         </period>
+         <period start="0330" end="0400">
+           <value>0.778</value>
+         </period>
+         <period start="0400" end="0430">
+           <value>0.7275</value>
+         </period>
+         <period start="0430" end="0500">
+           <value>0.8225</value>
+         </period>
+         <period start="0500" end="0530">
+           <value>0.8395</value>
+         </period>
+         <period start="0530" end="0600">
+           <value>1.5005</value>
+         </period>
+         <period start="0600" end="0630">
+           <value>1.357</value>
+         </period>
+         <period start="0630" end="0700">
+           <value>1.3795</value>
+         </period>
+         <period start="0700" end="0730">
+           <value>2.579</value>
+         </period>
+         <period start="0730" end="0800">
+           <value>1.593</value>
+         </period>
+         <period start="0800" end="0830">
+           <value>8.153</value>
+         </period>
+         <period start="0830" end="0900">
+           <value>8.674</value>
+         </period>
+         <period start="0900" end="0930">
+           <value>6.331</value>
+         </period>
+         <period start="0930" end="1000">
+           <value>5.4865</value>
+         </period>
+         <period start="1000" end="1030">
+           <value>1.871</value>
+         </period>
+         <period start="1030" end="1100">
+           <value>2.2295</value>
+         </period>
+         <period start="1100" end="1130">
+           <value>1.794</value>
+         </period>
+         <period start="1130" end="1200">
+           <value>2.4615</value>
+         </period>
+         <period start="1200" end="1230">
+           <value>6.6185</value>
+         </period>
+         <period start="1230" end="1300">
+           <value>6.4595</value>
+         </period>
+         <period start="1300" end="1330">
+           <value>5.929</value>
+         </period>
+         <period start="1330" end="1400">
+           <value>3.4645</value>
+         </period>
+         <period start="1400" end="1430">
+           <value>3.6875</value>
+         </period>
+         <period start="1430" end="1500">
+           <value>1.781</value>
+         </period>
+         <period start="1500" end="1530">
+           <value>1.822</value>
+         </period>
+         <period start="1530" end="1600">
+           <value>1.8965</value>
+         </period>
+         <period start="1600" end="1630">
+           <value>1.9475</value>
+         </period>
+         <period start="1630" end="1700">
+           <value>2.0225</value>
+         </period>
+         <period start="1700" end="1730">
+           <value>2.044</value>
+         </period>
+         <period start="1730" end="1800">
+           <value>2.1555</value>
+         </period>
+         <period start="1800" end="1830">
+           <value>1.503</value>
+         </period>
+         <period start="1830" end="1900">
+           <value>1.418</value>
+         </period>
+         <period start="1900" end="1930">
+           <value>1.441</value>
+         </period>
+         <period start="1930" end="2000">
+           <value>1.338</value>
+         </period>
+         <period start="2000" end="2030">
+           <value>1.31</value>
+         </period>
+         <period start="2030" end="2100">
+           <value>1.325</value>
+         </period>
+         <period start="2100" end="2130">
+           <value>1.574</value>
+         </period>
+         <period start="2130" end="2200">
+           <value>1.373</value>
+         </period>
+         <period start="2200" end="2230">
+           <value>1.4165</value>
+         </period>
+         <period start="2230" end="2300">
+           <value>1.3395</value>
+         </period>
+         <period start="2300" end="2330">
+           <value>1.3225</value>
+         </period>
+         <period start="2330" end="0000">
+           <value>1.372</value>
+         </period>
+       </measuringchannel>
+     </measuringpoint>
+     <measuringpoint code="device-202-30m" name="Ввод-2 (ком.)">
+       <measuringchannel code="01" desc="Энергия A+">
+         <period start="0000" end="0030">
+           <value>4.997</value>
+         </period>
+         <period start="0030" end="0100">
+           <value>4.311</value>
+         </period>
+         <period start="0100" end="0130">
+           <value>4.6585</value>
+         </period>
+         <period start="0130" end="0200">
+           <value>4.7035</value>
+         </period>
+         <period start="0200" end="0230">
+           <value>4.2775</value>
+         </period>
+         <period start="0230" end="0300">
+           <value>4.936</value>
+         </period>
+         <period start="0300" end="0330">
+           <value>4.3195</value>
+         </period>
+         <period start="0330" end="0400">
+           <value>4.821</value>
+         </period>
+         <period start="0400" end="0430">
+           <value>4.509</value>
+         </period>
+         <period start="0430" end="0500">
+           <value>4.305</value>
+         </period>
+         <period start="0500" end="0530">
+           <value>4.641</value>
+         </period>
+         <period start="0530" end="0600">
+           <value>6.07</value>
+         </period>
+         <period start="0600" end="0630">
+           <value>5.3045</value>
+         </period>
+         <period start="0630" end="0700">
+           <value>5.7485</value>
+         </period>
+         <period start="0700" end="0730">
+           <value>5.1425</value>
+         </period>
+         <period start="0730" end="0800">
+           <value>9.5955</value>
+         </period>
+         <period start="0800" end="0830">
+           <value>9.5695</value>
+         </period>
+         <period start="0830" end="0900">
+           <value>9.158</value>
+         </period>
+         <period start="0900" end="0930">
+           <value>9.803</value>
+         </period>
+         <period start="0930" end="1000">
+           <value>6.6175</value>
+         </period>
+         <period start="1000" end="1030">
+           <value>6.8825</value>
+         </period>
+         <period start="1030" end="1100">
+           <value>6.2685</value>
+         </period>
+         <period start="1100" end="1130">
+           <value>6.5785</value>
+         </period>
+         <period start="1130" end="1200">
+           <value>6.4515</value>
+         </period>
+         <period start="1200" end="1230">
+           <value>6.263</value>
+         </period>
+         <period start="1230" end="1300">
+           <value>6.046</value>
+         </period>
+         <period start="1300" end="1330">
+           <value>6.4335</value>
+         </period>
+         <period start="1330" end="1400">
+           <value>6.3095</value>
+         </period>
+         <period start="1400" end="1430">
+           <value>6.418</value>
+         </period>
+         <period start="1430" end="1500">
+           <value>6.502</value>
+         </period>
+         <period start="1500" end="1530">
+           <value>8.133</value>
+         </period>
+         <period start="1530" end="1600">
+           <value>5.973</value>
+         </period>
+         <period start="1600" end="1630">
+           <value>6.7195</value>
+         </period>
+         <period start="1630" end="1700">
+           <value>6.07</value>
+         </period>
+         <period start="1700" end="1730">
+           <value>5.9675</value>
+         </period>
+         <period start="1730" end="1800">
+           <value>5.5825</value>
+         </period>
+         <period start="1800" end="1830">
+           <value>5.96</value>
+         </period>
+         <period start="1830" end="1900">
+           <value>5.4725</value>
+         </period>
+         <period start="1900" end="1930">
+           <value>5.4595</value>
+         </period>
+         <period start="1930" end="2000">
+           <value>5.972</value>
+         </period>
+         <period start="2000" end="2030">
+           <value>5.695</value>
+         </period>
+         <period start="2030" end="2100">
+           <value>5.3195</value>
+         </period>
+         <period start="2100" end="2130">
+           <value>5.6905</value>
+         </period>
+         <period start="2130" end="2200">
+           <value>6.1335</value>
+         </period>
+         <period start="2200" end="2230">
+           <value>5.6445</value>
+         </period>
+         <period start="2230" end="2300">
+           <value>5.549</value>
+         </period>
+         <period start="2300" end="2330">
+           <value>5.975</value>
+         </period>
+         <period start="2330" end="0000">
+           <value>5.954</value>
+         </period>
+       </measuringchannel>
+     </measuringpoint>
+   </area>
+ </message>
