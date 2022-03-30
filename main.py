@@ -1,19 +1,25 @@
 import xml.etree.ElementTree as ET
-from zipfile import ZipFile
+from zipfile import ZipFile, ZIP_DEFLATED
 import os
-from os.path import basename
+
 import tempfile
+import base64
+
 
 def close_tmp_file(tf):
+
     try:
         os.unlink(tf.name)
         tf.close()
     except:
         pass
 
-def parse_xml(contents):
 
-    tree = ET.parse(contents)
+def parse_xml(contents):
+    content_type, content_string = contents.split(',')
+    decoded = base64.b64decode(content_string)
+    tree = ET.ElementTree(ET.fromstring(decoded))
+    #tree = ET.parse(contents)
     root = tree.getroot()
 
     try:
@@ -27,14 +33,19 @@ def parse_xml(contents):
     return temp_file
 
 
-def do_zip(contents, names):
+def do_zip(names):
 
-    with ZipFile('reports.zip', 'w') as zipObj:
-       # Iterate over all the files in directory
-       for c, n in zip(contents, names):
-           temp_file = parse_xml(n)
+    zip_tf = tempfile.NamedTemporaryFile(delete=False, suffix='.zip')
+    zf = ZipFile(zip_tf, mode='w', compression=ZIP_DEFLATED)
 
-           zipObj.write(temp_file.name, arcname=f'{n}')
-           close_tmp_file(temp_file)
+    for (n, c) in names:
+        temp_file = parse_xml(c)
+        zf.write(temp_file.name, f"{n}")
+
+        temp_file.flush()
+        close_tmp_file(temp_file)
+
+    zf.close()
+    return zip_tf
 
 
