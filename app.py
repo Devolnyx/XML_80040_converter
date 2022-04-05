@@ -7,7 +7,9 @@ from dash.dependencies import Input, Output, State
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-app = Dash(__name__, external_stylesheets=external_stylesheets)
+app = Dash(__name__, external_stylesheets=external_stylesheets, suppress_callback_exceptions=True,
+           #url_base_pathname='/xmlconverter/'
+           )
 
 
 header = html.Div([
@@ -103,4 +105,4 @@ def update_output(n, list_of_names, list_of_contents):
         return dcc.send_file(zip_file.name, filename="XML_reports.zip")
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
