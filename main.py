@@ -40,7 +40,8 @@ def do_zip(names):
 
     for (n, c) in names:
         temp_file = parse_xml(c)
-        zf.write(temp_file.name, f"{n}")
+        name = n.replace('80020', '80040')
+        zf.write(temp_file.name, f"{name}")
 
         temp_file.flush()
         close_tmp_file(temp_file)
