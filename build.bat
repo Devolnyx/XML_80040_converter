@@ -1,0 +1,1 @@
+pyinstaller --onefile --name=xml_converter file_converter.py
