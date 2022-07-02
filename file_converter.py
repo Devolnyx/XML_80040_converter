@@ -33,7 +33,7 @@ def parse_xml(folder, file):
         root.attrib['class'] = '80040'
 
         name = file.replace('80020', '80040')
-        tree.write(os.path.join(folder, name))
+        tree.write(os.path.join(folder, name), encoding="UTF-8", xml_declaration=True)
     except:
         pass
 
